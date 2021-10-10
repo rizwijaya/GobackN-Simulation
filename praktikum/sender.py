@@ -59,6 +59,7 @@ def main():
     
         i=0
         j=0
+        print("Panjang pesan: " + f)
         j=int(input("Enter the window size -> "))
     
         b=""
