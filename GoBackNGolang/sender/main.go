@@ -62,8 +62,8 @@ func main() {
 		j = j - 1
 		var k int = j
 
-		chars := []rune(message)
-		for i != length {
+		chars := []rune(message) //Inisialisasi awal message dengan rune agar nantinya dapat dipanggil karakter per karakter
+		for i != length {        //Melakukan perulangan selama kondisi True
 			for i != length-j {
 				char := string(chars[i])
 				fmt.Fprintf(c, string(char)+"\n")

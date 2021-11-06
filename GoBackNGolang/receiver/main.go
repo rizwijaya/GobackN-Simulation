@@ -52,7 +52,7 @@ func main() {
 			//fmt.Println("Generate ACK F: " + strconv.Itoa(f))
 			//Mengirimkan Acknowledgement
 			if f == 0 {
-				b := "ACK Lost"
+				b := "ACK Lost" //Itoa -> int to string
 				fmt.Println("Paket Lost")
 				fmt.Println(" Discard Paket " + strconv.Itoa(i) + " sampai " + strconv.Itoa(int(k2)))
 				//var lo int = i
